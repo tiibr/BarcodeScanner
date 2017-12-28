@@ -40,12 +40,8 @@
         <framework src="QuartzCore.framework" />
         
         <config-file target="*-Info.plist" parent="/*">
-          <array>
-              <dict>
-                  <key>NSCameraUsageDescription</key>
-                  <string>Ler QR Code</string>
-              </dict>
-          </array>
+          <key>NSCameraUsageDescription</key>
+          <string>Ler QR Code</string>
         </config-file>
 
     </platform>
