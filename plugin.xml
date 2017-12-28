@@ -39,7 +39,7 @@
         <framework src="CoreVideo.framework" />
         <framework src="QuartzCore.framework" />
         
-        <config-file target="*-Info.plist" parent="/*/plugins">
+        <config-file target="*-Info.plist" parent="/*">
           <array>
               <dict>
                   <key>NSCameraUsageDescription</key>
